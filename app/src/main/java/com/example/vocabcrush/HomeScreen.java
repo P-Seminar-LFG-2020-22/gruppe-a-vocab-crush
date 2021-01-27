@@ -32,6 +32,11 @@ public class HomeScreen extends AppCompatActivity {
         startActivity(chose_deck);
     }
 
+    public void click_backToFirstScreen(View view){
+        Intent firstScreen = new Intent(this, MainActivity.class);
+        startActivity(firstScreen);
+    }
+
 
 }
 

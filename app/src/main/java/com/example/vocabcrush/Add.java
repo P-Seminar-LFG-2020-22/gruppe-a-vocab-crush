@@ -2,6 +2,7 @@ package com.example.vocabcrush;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,5 +19,10 @@ public class Add extends AppCompatActivity {
         Intent add = getIntent();
 
         hinzufügen = (TextView) findViewById(R.id.hinzufügen);
+    }
+
+    public void click_backToHomeScreenFromAdd(View view){
+        Intent home = new Intent(this, HomeScreen.class);
+        startActivity(home);
     }
 }
