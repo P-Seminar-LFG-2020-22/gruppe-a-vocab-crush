@@ -17,7 +17,7 @@ public class Chose_Deck extends AppCompatActivity {
         setContentView(R.layout.activity_display_chose_deck);
 
         // Get the Intent that started this activity and extract the string
-        Intent chose_deck = getIntent();
+
 
         auswählen = (TextView) findViewById(R.id.auswählen);
     }

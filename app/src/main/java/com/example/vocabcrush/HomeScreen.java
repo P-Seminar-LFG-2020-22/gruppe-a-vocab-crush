@@ -15,7 +15,7 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_homescreen);
 
         // Get the Intent that started this activity and extract the string
-        Intent home = getIntent();
+
 
 
         add = (Button) findViewById(R.id.add_deck);
