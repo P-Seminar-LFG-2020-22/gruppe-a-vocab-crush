@@ -22,6 +22,12 @@
 
             </intent-filter>
         </activity>
+
+        <activity android:name=".Chose_Deck">
+            <intent-filter>
+
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

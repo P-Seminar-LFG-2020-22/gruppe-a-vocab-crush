@@ -16,7 +16,7 @@ public class Add extends AppCompatActivity {
         setContentView(R.layout.activity_display_add);
 
         // Get the Intent that started this activity and extract the string
-        
+
 
         hinzufügen = (TextView) findViewById(R.id.hinzufügen);
     }
