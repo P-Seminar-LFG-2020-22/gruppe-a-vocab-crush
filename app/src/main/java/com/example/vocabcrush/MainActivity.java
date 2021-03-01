@@ -11,17 +11,17 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView startscreen;
-    Button start;
+    ImageView startscreen, start;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         // Capture the layout's TextView and set the string as its text
-        startscreen = (ImageView) findViewById(R.id.Startscreen);
+        startscreen = (ImageView) findViewById(R.id.startscreen);
 
-        start = (Button) findViewById(R.id.start_button);
+        start = (ImageView) findViewById(R.id.start_button);
     }
 
     public void click_start(View view) {
